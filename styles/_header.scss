@@ -1,0 +1,23 @@
+.header {
+    background-color: rgba(0, 0, 0, .42);
+    display: flex;
+    justify-content: center;
+    &__container {
+        padding: 44px 359px 45px 372px;
+        display: flex;
+        justify-content: space-between;
+        width: 1872px;
+        @media screen and (max-width: 1440px) {
+            padding: 44px 118px 45px 132px;
+        }
+        @media screen and (max-width: 1024px) {
+            padding: 13px 31px 13px 42px;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 8px 24px 8px 13px;
+        }
+        @media screen and (max-width: 530px) {
+            flex-direction: column;
+        }
+    }
+}

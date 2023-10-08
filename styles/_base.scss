@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: $font-base;
+}
+
+body {
+    font-family: $font-family;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1872px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 31.33;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+section,
+footer {
+    padding: 100px 0;
+}
+
+@media screen and (max-width: 1872px) {
+    .wrapper {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    section,
+    footer {
+        padding: 80px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section,
+    footer {
+        padding: 70px 0;
+    }
+}

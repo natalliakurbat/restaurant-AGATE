@@ -1,0 +1,30 @@
+.footer {
+    background-color: $footer-color;
+    &__title {
+        font-size: 2.6rem;
+        line-height: 81.45px;
+        color: #fff;
+        @media screen and (max-width: 1024px) {
+            font-size: 2rem;
+            line-height: 62.65px;
+        }
+        @media screen and (max-width: 768px) {
+            font-size: 1.6rem;
+            line-height: 50.1px;
+        }
+    }
+    &__text {
+        @include small-text(#B1B1B1);
+        margin-bottom: 60px;
+        @media screen and (max-width: 1024px) {
+            font-size: 0.8rem;
+            line-height: 25.06px;
+            margin-bottom: 47px;
+        }
+        @media screen and (max-width: 768px) {
+            font-size: 0.72rem;
+            line-height: 22.55px;
+            margin-bottom: 35px;
+        }
+    }
+}

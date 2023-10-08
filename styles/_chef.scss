@@ -1,0 +1,42 @@
+.chef {
+    background-color: $section-color;
+    &__img {
+        width: 100%;
+        max-width: 398px;
+        margin-bottom: 30px;
+        @media screen and (max-width: 1024px) {
+            max-width: 282px;
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 251px;
+            margin-bottom: 20px;
+        }
+    }
+    &__text {
+        @include small-text(#474747);
+        margin: 30px 0;
+        @media screen and (max-width: 1024px) {
+            font-size: 0.88rem;
+            line-height: 27.57px;
+        }
+        @media screen and (max-width: 768px) {
+            font-size: 0.8rem;
+            line-height: 25.06px;
+            margin: 20px 0;
+        }
+    }
+    &__description {
+        @include font-text;
+        max-width: 939px;
+        @media screen and (max-width: 1024px) {
+            max-width: 691px;
+            font-size: 0.88rem;
+            line-height: 30.21px;
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 626px;
+            font-size: 0.8rem;
+            line-height: 27.46px;
+        }
+    }
+}

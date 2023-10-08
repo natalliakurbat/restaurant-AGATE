@@ -1,0 +1,20 @@
+.button-up {
+    display: inline-block;
+    font-size: 1.12rem;
+    line-height: 70px;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border: 1px solid $button-color;
+    background-color: $button-color;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 19px;
+    right: 20px;
+    transition: all .5s;
+    &:hover {
+        transform: scale(1.1);
+        background-color: $color-first;
+        color: $button-color;
+    }
+}

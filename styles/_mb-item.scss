@@ -1,0 +1,16 @@
+.mb-item {
+    width: calc(100% / 2);
+    padding: 12px;
+    &__img {
+        width: 100%;
+        max-width: 924px;
+        height: 100%;
+        object-fit: cover;
+    }
+    @media screen and (max-width: 1024px) {
+        padding: 5px;
+    }
+    @media screen and (max-width: 768px) {
+        padding: 6px;
+    }
+}

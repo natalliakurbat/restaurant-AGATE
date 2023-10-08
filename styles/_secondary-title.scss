@@ -1,0 +1,11 @@
+.secondary-title {
+    @include second-title;
+    @media screen and (max-width: 1024px) {
+        font-size: 1.4rem;
+        line-height: 43.86px;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+        line-height: 37.59px;
+    }
+}
