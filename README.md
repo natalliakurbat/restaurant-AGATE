@@ -1,5 +1,6 @@
 # Restaurant-AGATE
 Верстка сайта "Restaurant-AGATE" по макету с Figma
+https://natalliakurbat.github.io/restaurant-AGATE/
 
 - адаптивная верстка (1920рх, 1440рх, 1024рх, 768рх)
 - применение методологии БЭМ
